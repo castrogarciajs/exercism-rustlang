@@ -17,13 +17,13 @@ fn main() {
     let mut first_number = String::new();
     let mut second_number = String::new();
 
-    println!("Insert the first number to add 😀: ");
+    println!("Insert the first number 😀: ");
 
     io::stdin()
         .read_line(&mut first_number)
         .expect(&MESSAGE_ERROR);
 
-    println!("Insert the second number to add 😀: ");
+    println!("Insert the second number 😀: ");
 
     io::stdin()
         .read_line(&mut second_number)
@@ -41,7 +41,7 @@ fn main() {
     } else if response_operator_client == "resta" {
         let result = first_convert_to_number.unwrap_or_default()
             - second_convert_to_number.unwrap_or_default();
-            
+
         println!("El resultado de tu resta es: {}", result);
     } else if response_operator_client == "multiplicacion" {
         let result = first_convert_to_number.unwrap_or_default()
