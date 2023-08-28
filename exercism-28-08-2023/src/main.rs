@@ -3,7 +3,8 @@ use std::io;
 fn main() {
     // #02 Ejercicio: Contador de Números Pares
 
-    // Escribe un programa en Rust que solicite al usuario ingresar un  número entero. El programa debe contar decir si el número es par y mostrar el resultado al final.
+    // Escribe un programa en Rust que solicite al usuario ingresar un  número entero.
+    // El programa debe contar decir si el número es par y mostrar el resultado al final.
 
 
     println!("Bienvenido a rust par");
