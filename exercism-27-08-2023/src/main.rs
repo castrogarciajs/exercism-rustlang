@@ -1,7 +1,8 @@
 use std::io;
 
 fn main() {
-    // # 01 - Escribe un programa en Rust que tome dos números enteros como entrada y permita al usuario seleccionar una operación (suma, resta, multiplicación o división). Luego, realiza la operación seleccionada y muestra el resultado.
+    // # 01 - Escribe un programa en Rust que tome dos números enteros como entrada y permita al usuario seleccionar una operación (suma, resta, multiplicación o división). 
+    // Luego, realiza la operación seleccionada y muestra el resultado.
 
     println!("Hello!, Welcome to calculator rust 🤓\n");
 
