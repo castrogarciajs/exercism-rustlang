@@ -7,11 +7,13 @@ fn main() {
 
     println!("what operator do you want to perform? 🤔: ");
 
+    
     let mut operator = String::new();
     const MESSAGE_ERROR: &str = "Error operator";
 
     io::stdin().read_line(&mut operator).expect(&MESSAGE_ERROR);
 
+    // todo lo que ingrese el cliente sea escrito de la misma forma
     let response_operator_client: String = operator.trim().to_lowercase();
 
     let mut first_number = String::new();
@@ -29,6 +31,7 @@ fn main() {
         .read_line(&mut second_number)
         .expect(&MESSAGE_ERROR);
 
+        
     let first_convert_to_number: Result<i32, _> = first_number.trim().parse();
     let second_convert_to_number: Result<i32, _> = second_number.trim().parse();
 
