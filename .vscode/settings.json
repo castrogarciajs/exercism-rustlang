@@ -1,5 +1,5 @@
 {
-    "rust-analyzer.linkedProjects": [
-        ".\\exercism-27-08-2023\\Cargo.toml"
-    ]
+    "editor.inlayHints.enabled": "offUnlessPressed",
+    "rust-analyzer.checkOnSave": true,
+    "rust-analyzer.showUnlinkedFileNotification": false
 }
