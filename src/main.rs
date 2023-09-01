@@ -1,7 +1,7 @@
 fn main() {
     println!("Hello, world!");
 
-    let character: char = "A";
+    let character: char = 'A';
     println!("{}", character);
 
     // Que es rust ?
