@@ -13,7 +13,9 @@ fn main() {
 
     let result = revert_string(txt_client);
 
+    let integer: i32 = 10;
     println!("{}", result);
+    format!("Probando format {} - {}", txt_client, integer);
 }
 
 fn substring(txt_string: &str) -> &str {
