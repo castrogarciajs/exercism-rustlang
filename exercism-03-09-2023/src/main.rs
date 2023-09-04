@@ -19,23 +19,23 @@ fn main() {
 }
 
 fn substring(txt_string: &str) -> &str {
-    return &txt_string[1..];
+    &txt_string[1..];
 }
 
 fn char_at(txt_string: &str) -> char {
     if let Some(first_txt_string) = txt_string.chars().next() {
-        return first_txt_string;
+        first_txt_string;
     } else {
-        return 'E';
+        'E';
     }
 }
 
 fn revert_string(subs_tring: &str) -> String {
     if subs_tring.is_empty() {
-        return String::new();
+        String::new();
     } else {
         let first_char = char_at(subs_tring);
         let rest = substring(subs_tring);
-        return format!("{}{}", revert_string(rest), first_char);
+        format!("{}{}", revert_string(rest), first_char);
     }
 }
